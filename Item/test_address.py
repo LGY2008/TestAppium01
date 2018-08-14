@@ -86,7 +86,7 @@ class TestAddress():
             print( "出错误了！" )
             pass
 
-    @pytest.mark.run(order=3)
+    @pytest.mark.run(order=4)
     @allure.step("删除地址")
     def test_delete_address(self):
         # 调用删除方法
