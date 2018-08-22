@@ -1,7 +1,5 @@
 import sys, os
-
 import allure
-
 sys.path.append( os.getcwd() )
 from Page.page_setting import PageSetting
 from Base.get_driver import getDriver

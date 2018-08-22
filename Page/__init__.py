@@ -20,13 +20,10 @@ set_login_set=By.ID,"com.yunmall.lc:id/ymtitlebar_left_btn_image"
 set_modify_pwd=By.ID,"com.yunmall.lc:id/setting_modify_pwd"
 # 短信提醒
 set_sms_msg=By.ID,"com.yunmall.lc:id/setting_sms_notify"
-
 # 退出
 set_logout=By.ID,"com.yunmall.lc:id/setting_logout"
-
 # 退出确认
 set_logout_ok=By.ID,"com.yunmall.lc:id/ymdialog_right_button"
-
 # 地址管理
 set_address=By.ID,"com.yunmall.lc:id/setting_address_manage"
 # 新增地址

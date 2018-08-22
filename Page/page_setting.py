@@ -56,7 +56,6 @@ class PageSetting(BaseInit):
         self.find_element_xpath_click(province)
         self.find_element_xpath_click(city)
         self.find_element_xpath_click(area)
-
         # 修改详细地址
         self.page_detail_address(detail_address)
         # 修改默认按钮
@@ -98,7 +97,6 @@ class PageSetting(BaseInit):
             return True
         except:
             return False
-
     # 获取地址列表
     def page_get_address_list(self):
         elements=self.find_elements(Page.address_get_address_list)
@@ -114,8 +112,6 @@ class PageSetting(BaseInit):
     def page_delete_address(self):
         # 删除操作
         self.page_click_edit_delete()
-
-
     # 退出登录
     def page_logout(self):
         # 消息推送元素
